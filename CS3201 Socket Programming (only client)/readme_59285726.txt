@@ -1,0 +1,59 @@
+Development Environment and OS
+------------------------------
+PyCharm 2025.2.4 (ver.252.27239.106)
+
+MS Windows11
+------------------------------
+
+1. input the server IP
+2. input the server port (18222)
+3. input the command (ADD/LIST/REMOVE/MARK/QUIT)
+
+ADD
+------------------------------
+Each ADD command will create one task, a line of # to end.
+
+Each task will have a task id start from 0000, second task is 0001, third is 0002 etc.
+
+The default status of task is pending. 
+
+You can find the task id by command LIST after adding it in the list.
+------------------------------
+
+LIST
+------------------------------
+List every tasks in the list.
+
+It will shows the task id, received time and the status
+------------------------------
+
+REMOVE
+------------------------------
+Input the task id of the task(s) that desire to remove, after entering all the tasks, a line of # to end.
+
+If you input any invalid task id, no task will be remove even contain valid task id.
+
+If successful remove, the task(s) will be remove from the list.
+------------------------------
+
+MARK
+------------------------------
+Input the task id of the task(s) that desire to mark, after entering all the tasks, a line of # to end.
+
+If you input any invalid task id, no task will be mark even contain valid task id.
+
+If successful mark, status of the task(s) will mark as completed.
+------------------------------
+
+QUIT
+------------------------------
+Disconnect to the server and close the socket.
+------------------------------
+
+
+
+
+
+
+
+
