@@ -1,0 +1,37 @@
+#program{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#promotion_information h3{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+#promotion_information video{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+#information_table table{
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(130, 93, 161);
+}
+tr:nth-child(-n + 3){
+    background-color: white;   
+}
+tr:nth-child(even){
+    background-color: rgb(210, 197, 223);
+}
+td:first-child{
+    width: 60%;
+}

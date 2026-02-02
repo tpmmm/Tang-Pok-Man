@@ -1,0 +1,41 @@
+#Welcome{
+    background-color: rgb(245, 243, 243);
+    padding: 10px 5px;
+}
+#location img{
+    float: left;
+    width: 40%;
+    height: auto;
+}
+#location ul{
+    list-style-type: none;
+    float: left;
+    padding: 30px;
+}
+#location li{
+    margin: 10px;
+}
+#reservation{
+    width: 90%;
+    clear: both;
+    margin-left: 40px;
+}
+#reservation h1{
+    text-align: center;
+}
+legend{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+#booking{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+.visitors{
+    margin-left: 65px;
+}
+fieldset p{
+    text-align: center;
+    color: red;
+}

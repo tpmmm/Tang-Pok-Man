@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#contact_page{
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 5px 0 5px 10px;
+}

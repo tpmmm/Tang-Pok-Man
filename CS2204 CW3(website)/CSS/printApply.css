@@ -1,0 +1,23 @@
+.nav{
+    display: none;
+}
+#welcome{
+    display: none;
+}
+#zones{
+    display: none;
+}
+
+#chosen h2{
+    padding-top: 10px;
+}
+.choices{ 
+    border: black solid 2px;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 2px;
+    border-collapse: collapse;
+}

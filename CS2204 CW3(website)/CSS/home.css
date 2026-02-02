@@ -1,0 +1,15 @@
+#Welcome{
+    background-color: rgba(202, 202, 202, 0.384);
+    padding: 15px 10px;
+}
+.information{
+    float: left;
+    padding-left: 10px;
+}
+.information dd{
+    padding-left: 35px;
+}
+.map_and_apply{
+    float: right;
+    padding-right: 100px;
+}

@@ -1,0 +1,96 @@
+#welcome{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+h2{
+    padding-bottom: 10px;
+}
+#zones{
+    width: 99%;
+}
+#zones h3{
+    display: inline;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+#Technology_Zone{
+    width: auto;
+    height: 483px;
+}
+#Technology_Zone form{
+    width: 30%;
+    float: left;
+    display: inline;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 0px 20px 5px;
+}
+#Innovation_Zone{
+    border-collapse: collapse;
+}
+#Innovation_Zone{
+    width: auto;
+    height: 241.5px;
+}
+#Innovation_Zone form{
+    width: 30%;
+    float: left;
+    display: inline;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 0px 20px 5px;
+}
+#Innovation_Zone{
+    border-collapse: collapse;
+}
+#Ecology_Zone{
+    width: auto;
+    height: 483px;
+}
+#Ecology_Zone form{
+    width: 30%;
+    float: left;
+    display: inline;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 0px 20px 5px;
+}
+#Ecology_Zone{
+    border-collapse: collapse;
+}
+#chosen{
+    clear: both;
+}
+#chosen h2{
+    padding-top: 10px;
+}
+#choices{ 
+    border: black solid 2px;
+    border-collapse: collapse;
+    width: 90%;
+
+}
+#choices td, th{
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+thead{
+    background-color: rgb(210, 172, 243);
+}
+.tbody tr:nth-child(-n + 3){
+    background-color: white;  
+}
+.tbody tr:nth-child(even){
+    background-color: rgb(226, 201, 250);
+}
+#subtext{
+    color: red;
+}
