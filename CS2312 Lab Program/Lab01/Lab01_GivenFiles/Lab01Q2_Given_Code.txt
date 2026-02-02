@@ -1,0 +1,43 @@
+  
+====================================================
+Add the following method in Day.java
+====================================================
+	// check if the current object is the end of a month
+	public boolean isEndOfAMonth() 
+	{
+		if (valid(year,month,day+1)) //A smart methd: check whether (year month [day+1]) is still a valid date
+			return false;
+		else
+			return true;
+	}
+	
+====================================================
+Add the following method and complete it in Day.java
+====================================================
+	// create and return a new Day object which is the "next day" of the current day object
+	public Day next() 
+	{
+		if (isEndOfAMonth())
+			if (month==12)
+				return new Day(year+1,1,1); //Since the current day is the end of the year, the next day should be Jan 01
+			else
+				return _________________________ // <== your task: first day of next month
+		else
+			return _________________________ // <== your task: next day of current month
+	}
+
+
+====================================================
+Add the following code and complete it in Main.java:
+
+Explanation:
+- make use of the .isEndOfAMonth() method of Day
+- make use of the .next() method of Day
+====================================================
+		   if (dayObj.isEndOfAMonth())
+			   System.out.println("It is the end of a month.");
+		   else
+			   System.out.println("It is NOT the end of a month.");
+	
+		   Day dayObj2 = dayObj.next(); // Here, .next() creates another day object (the next day of dayObj)
+		   System.out.println("\nThe next day is " + ___________________); // <== your task: call .toString() for dayObj2
